@@ -1,0 +1,73 @@
+Crestera Scan Free Edition License
+Copyright (c) 2026 Barry Salas. All rights reserved.
+
+This license covers the Crestera Scan Free edition: the software as
+distributed and run without a paid license key. It does not cover the
+Crestera Scan Pro edition, which is licensed separately under terms provided
+at the time of purchase.
+
+1. What you may do
+
+You may download, install, and run Crestera Scan Free, on any number of
+machines and sensors, for as long as you like, at no cost, for your own
+organization's internal use, including commercial use inside your own
+organization. You may make copies for your own backup and deployment
+purposes.
+
+2. What you may not do
+
+You may not redistribute, sell, sublicense, or host Crestera Scan (modified
+or not) as a product or service for others, without our prior written
+permission. You may not remove or alter any copyright, license, or
+attribution notice contained in the software. You may not use Crestera
+Scan's name, logo, or branding to imply endorsement of another product. You
+may not use the Free edition to build a competing network-discovery or
+vulnerability-scanning product offered to third parties. You may not
+circumvent the license-key check that separates the Free and Pro editions.
+
+3. Authorized scanning only
+
+You may only scan networks and systems that your organization owns or is
+authorized in writing to test. You are solely responsible for how you use
+Crestera Scan, for obtaining any authorization you need, and for complying
+with the laws and agreements that apply to you.
+
+4. No warranty
+
+Crestera Scan Free is provided "AS IS," without warranty of any kind, express
+or implied, including but not limited to the warranties of merchantability,
+fitness for a particular purpose, and non-infringement. Use it at your own
+risk. In particular, Crestera Scan has not undergone an independent
+third-party security audit or penetration test: run your own evaluation
+before relying on it for anything security-critical.
+
+5. Limitation of liability
+
+To the maximum extent permitted by law, in no event will the copyright
+holder be liable for any claim, damages, or other liability, whether in an
+action of contract, tort, or otherwise, arising from, out of, or in
+connection with Crestera Scan or its use, including any effect of a scan on
+the systems scanned.
+
+6. Third-party components
+
+Crestera Scan is built on a number of open-source libraries, each under its
+own license. None of them require Crestera Scan itself to be open-sourced.
+See THIRD-PARTY-NOTICES.md for the full list and license texts.
+
+7. Termination
+
+This license terminates automatically if you breach any of its terms. Upon
+termination you must stop using Crestera Scan Free and destroy any copies in
+your possession.
+
+8. Changes to this license
+
+Future versions of Crestera Scan Free may be released under an updated
+version of this license. Software already downloaded under this version
+keeps these terms.
+
+---
+
+Questions about licensing, or interested in the Pro edition or a different
+arrangement? Contact barry.salas@gmail.com.
