@@ -31,17 +31,9 @@ under [Run as a Linux service](#run-as-a-linux-service). Skip to step 2.
 
 To try it without installing anything, run it in a folder of its own:
 `./crestera-scan-linux-amd64 serve` (it keeps a `data` folder beside itself,
-as on Windows below).
+as in the example output below).
 
-**Windows 11**
-
-Put `crestera-scan-windows-amd64.exe` in a folder of its own, for example
-`C:\CresteraScan`, then in PowerShell:
-
-```powershell
-cd C:\CresteraScan
-.\crestera-scan-windows-amd64.exe serve
-```
+**Windows:** a code-signed Windows build will follow.
 
 The first run creates a `data` folder next to the binary and prints three
 things worth reading:
@@ -49,7 +41,7 @@ things worth reading:
 ```
 FIRST RUN: created administrator "admin" with password ....................
 certificate SHA-256 fingerprint e883b2e1...
-listening on https://127.0.0.1:8443  data folder ...\data
+listening on https://127.0.0.1:8443  data folder .../data
 ```
 
 The password is also saved in `data/initial-admin-password.txt`.
@@ -436,23 +428,6 @@ docker build -t crestera-scan .
 docker run -d --name crestera-scan -p 127.0.0.1:8443:8443 -v crestera-scan-data:/data crestera-scan
 docker logs crestera-scan      # shows the first-run password
 ```
-
-## Run as a Windows service
-
-From an administrator PowerShell, in the folder holding the binary:
-
-```powershell
-.\crestera-scan-windows-amd64.exe service install
-.\crestera-scan-windows-amd64.exe service start
-.\crestera-scan-windows-amd64.exe service status
-```
-
-The service starts with Windows and restarts itself after a crash. It keeps
-the `data` folder beside the binary; its log is `data\logs\crestera-scan.log`,
-which is also where the first-run password is printed. `service stop` and
-`service uninstall` undo it; uninstalling leaves the data folder alone.
-Settings go in `crestera-scan.env` beside the binary, since a service has no
-environment of its own.
 
 ## Run as a Linux service
 

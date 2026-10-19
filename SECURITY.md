@@ -99,8 +99,8 @@ The first prints `Signature Verified Successfully`; the second `OK` for each
 file you downloaded. The same key in hex, for `tools/relsign verify`:
 `66d8c9afb51fb05e5dc8a1408481eff84d74ffa6861caa338d7bcc846446c6de`.
 
-The Windows binary is not yet Authenticode-signed, so Windows SmartScreen and
-some antivirus products may hold it on first launch.
+Releases are Linux only for now; the Windows build will be Authenticode-signed
+when it is released.
 
 ## Verifying webhook deliveries
 

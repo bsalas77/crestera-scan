@@ -51,9 +51,8 @@ prints the console certificate's fingerprint and the first administrator
 password. The console listens on `https://127.0.0.1:8443`;
 [QUICKSTART.md](QUICKSTART.md) shows how to open it to other machines.
 
-**Windows 11:** download `crestera-scan-windows-amd64.exe` into a folder of its
-own and run `.\crestera-scan-windows-amd64.exe serve` in PowerShell, or install
-it as a Windows service (QUICKSTART.md).
+**Windows:** a code-signed Windows build will follow. Crestera Scan on Linux
+scans Windows hosts like any other.
 
 Check your download first: each release carries `SHA256SUMS` and an ed25519
 signature that stock OpenSSL verifies. See
