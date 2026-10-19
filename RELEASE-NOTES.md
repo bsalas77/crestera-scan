@@ -1,5 +1,13 @@
 # Release notes
 
+## v1.0.1: current libraries
+
+A maintenance release. Scan is built with the latest Go libraries for
+cryptography and the operating system (`golang.org/x/crypto` 0.58,
+`x/sys` 0.49, `x/sync` 0.24, `x/text` 0.43). No advisories lie behind these
+updates; nothing else changes. Upgrade by running
+`sudo ./crestera-scan-linux-amd64 service install` with the new binary.
+
 ## v1.0.0: production release, Linux first
 
 The first production release of the Free edition. Everything in v0.1.0 to

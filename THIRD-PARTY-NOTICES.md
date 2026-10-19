@@ -30,10 +30,10 @@ libpcap. Its port lists are its own.
 | github.com/mattn/go-isatty | v0.0.24 | MIT |
 | github.com/ncruces/go-strftime | v1.0.0 | MIT |
 | github.com/remyoudompheng/bigfft | 24d4a6f8daec | BSD-3-Clause |
-| golang.org/x/crypto | v0.57.0 | BSD-3-Clause |
-| golang.org/x/sync | v0.23.0 | BSD-3-Clause |
-| golang.org/x/sys | v0.48.0 | BSD-3-Clause |
-| golang.org/x/text | v0.42.0 | BSD-3-Clause |
+| golang.org/x/crypto | v0.58.0 | BSD-3-Clause |
+| golang.org/x/sync | v0.24.0 | BSD-3-Clause |
+| golang.org/x/sys | v0.49.0 | BSD-3-Clause |
+| golang.org/x/text | v0.43.0 | BSD-3-Clause |
 | modernc.org/libc | v1.77.1 | BSD-3-Clause, with MIT and BSD components listed in its LICENSE-3RD-PARTY.md |
 | modernc.org/mathutil | v1.7.1 | BSD-3-Clause (go-licenses reports "Unknown"; the module's LICENSE file is the 3-clause BSD text) |
 | modernc.org/memory | v1.12.1 | BSD-3-Clause |
