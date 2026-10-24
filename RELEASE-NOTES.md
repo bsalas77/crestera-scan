@@ -1,5 +1,16 @@
 # Release notes
 
+## v1.0.2: Go 1.27.3
+
+A security maintenance release. Scan is built with Go 1.27.3, which adds a
+denylist of compromised intermediate certificates to TLS verification
+(GO-2026-6809): Scan refuses them even where the operating system's trust
+store has not been updated. Scan verifies certificates on its outbound
+connections (alert webhooks and e-mail, the CISA KEV feed, sensors). It also
+updates the SQLite driver (`modernc.org/sqlite` 1.61). Nothing else changes.
+Upgrade by running `sudo ./crestera-scan-linux-amd64 service install` with
+the new binary.
+
 ## v1.0.1: current libraries
 
 A maintenance release. Scan is built with the latest Go libraries for

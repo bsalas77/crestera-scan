@@ -21,23 +21,23 @@ libpcap. Its port lists are its own.
 
 | Module | Version | License |
 |---|---|---|
-| github.com/dustin/go-humanize | v1.0.1 | MIT |
+| github.com/dustin/go-humanize | v1.1.0 | MIT |
 | github.com/google/uuid | v1.6.0 | BSD-3-Clause |
 | github.com/jackc/pgpassfile | v1.0.0 | MIT |
 | github.com/jackc/pgservicefile | 5a60cdf6a761 | MIT |
 | github.com/jackc/pgx/v5 | v5.11.0 | MIT |
 | github.com/jackc/puddle/v2 | v2.2.2 | MIT |
 | github.com/mattn/go-isatty | v0.0.24 | MIT |
-| github.com/ncruces/go-strftime | v1.0.0 | MIT |
+| github.com/ncruces/go-strftime | v1.1.0 | MIT |
 | github.com/remyoudompheng/bigfft | 24d4a6f8daec | BSD-3-Clause |
 | golang.org/x/crypto | v0.58.0 | BSD-3-Clause |
 | golang.org/x/sync | v0.24.0 | BSD-3-Clause |
 | golang.org/x/sys | v0.49.0 | BSD-3-Clause |
 | golang.org/x/text | v0.43.0 | BSD-3-Clause |
-| modernc.org/libc | v1.77.1 | BSD-3-Clause, with MIT and BSD components listed in its LICENSE-3RD-PARTY.md |
+| modernc.org/libc | v1.79.0 | BSD-3-Clause, with MIT and BSD components listed in its LICENSE-3RD-PARTY.md |
 | modernc.org/mathutil | v1.7.1 | BSD-3-Clause (go-licenses reports "Unknown"; the module's LICENSE file is the 3-clause BSD text) |
 | modernc.org/memory | v1.12.1 | BSD-3-Clause |
-| modernc.org/sqlite | v1.60.1 | BSD-3-Clause; embeds SQLite, which is in the public domain |
+| modernc.org/sqlite | v1.61.0 | BSD-3-Clause; embeds SQLite, which is in the public domain |
 | rsc.io/qr | v0.2.0 | BSD-3-Clause (draws the two-factor setup QR code) |
 
 The Go standard library and runtime are BSD-3-Clause
